@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.bookmarktabFgmt.ChatFragment">
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/gradientbg"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+
+        <TextView
+            android:id="@+id/createEventText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:text="BookMarks"
+            android:textColor="@color/purple_600"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chatListRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_below="@+id/Button" />
+
+    <TextView
+        android:id="@+id/notAnyEventAdded"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="No any bookmark!"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="17sp"/>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/acceptedId"
+            android:title="@string/accepted"
+            android:checkable="true"/>
+
+        <item
+            android:id="@+id/rejectId"
+            android:title="@string/reject"
+            android:checkable="true"/>
+
+        <item
+            android:id="@+id/pendingId"
+            android:title="Pending"
+            android:checkable="true"/>
+
+        <item
+            android:id="@+id/mayBeId"
+            android:title="May Be"
+            android:checkable="true"/>
+    </group>
+
+
+</menu>

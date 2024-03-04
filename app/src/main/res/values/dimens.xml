@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_font_size_12">12sp</dimen>
+    <dimen name="new_calendar_view_height">300dp</dimen>
+    <dimen name="popup_menu_width">120dp</dimen>
+</resources>

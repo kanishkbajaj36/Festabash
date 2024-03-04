@@ -1,0 +1,57 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Festa</string>
+    <string name="event_name">Lorem Ipsum is Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since...</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="select_event">Select event type</string>
+    <string name="event_description">Kotlin is an open-source, statically-typed programming language that supports both object-oriented and functional programming. Kotlin provides similar syntax and concepts from other languages, including C#, Java, and Scala, among many others</string>
+    <string name="terms_conditions"><![CDATA[Terms & conditions]]></string>
+    <string name="unable_to_connect">Unable to connect to the internet please try again</string>
+    <string name="server_error">Server Error</string>
+    <string name="birthdayparty" tools:ignore="StringEscaping">Clearly state the purpose of the invitation, including the birthday person
+        name, age (if relevant), date, time and location of the event. Add any additional important information</string>
+
+    <string name="please_wait">Please Wait...\n</string>
+    <string name="OK">Ok</string>
+    <string name="google_key">AIzaSyA3KVnFOiaKNlhi4hJB8N2pB8tyoe_rRxQ</string>
+
+    <string name="please_select_image">Please select images</string>
+    <string name="do_you_want_to_exit_and_save_this_event_or_not">Do you want to exit and save this event or not</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="create_new_album">Create New Album</string>
+    <string name="lorem_ipsum_is_simply_dummy_text_of_the">Lorem Ipsum is Simply dummy text of the..</string>
+    <string name="event_name_here">Event Name Here</string>
+    <string name="berlin_germany">Berlin , Germany</string>
+
+
+    <string name="rename_folder">Rename Folder</string>
+    <string name="delete">Delete</string>
+
+    <string name="delete_img_from_album">Are you sure you want to Delete image from album ?</string>
+    <string name="delete_album">Are you sure you want to Delete album ?</string>
+    <string name="comment">Comment\'s</string>
+    <string name="create_post">Create Post</string>
+    <string name="post">Post</string>
+    <string name="write_description">Write Description</string>
+    <string name="some">Some</string>
+    <string name="phonebook">Phonebook</string>
+    <string name="_1">1</string>
+    <string name="all">All</string>
+    <string name="accepted">Accepted</string>
+    <string name="reject">Reject</string>
+
+    <string name="please_enter_event_title">Please enter event title</string>
+    <string name="please_upload_image">Please upload image</string>
+    <string name="please_enter_event_description">Please enter event description</string>
+    <string name="please_select_event_type">Please select event type</string>
+    <string name="please_enter_venue_name">Please enter venue name</string>
+    <string name="please_enter_venue_location">Please enter venue location</string>
+    <string name="please_enter_venue_date">Please enter venue date</string>
+    <string name="please_enter_venue_start_time">Please enter venue start time</string>
+    <string name="please_enter_venue_end_time">Please enter venue end time</string>
+    <string name="please_enter_location">Please enter location</string>
+    <string name="please_enter_date">Please enter date</string>
+    <string name="please_enter_start_time">Please enter start time</string>
+    <string name="please_enter_end_date">Please enter end date</string>
+</resources>
