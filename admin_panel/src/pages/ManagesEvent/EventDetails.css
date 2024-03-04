@@ -1,0 +1,186 @@
+.main_div {
+  background-color: #fff;
+  margin: 10px;
+}
+.paragraf_style {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+.host_style {
+  margin: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.334;
+  letter-spacing: 0em;
+  margin-bottom: 0.35em;
+  padding: 20px;
+}
+.ms-list {
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+.ms-feed li.ms-list-item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-bottom: 0;
+}
+.ms-list .ms-list-item {
+  position: relative;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+}
+.ms-twitter-feed .media {
+  align-items: flex-start;
+}
+
+.media {
+  justify-content: space-between;
+  align-items: center;
+  -webkit-transition: 0s;
+  transition: 0s;
+}
+.media {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+a {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: #ff0018;
+  font-size: 14px;
+}
+.ms-feed .media .ms-img-round {
+  margin-right: 1rem;
+}
+
+.ms-img-round {
+  border-radius: 50%;
+}
+.ms-img-small {
+  width: 40px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+.media-body {
+  -ms-flex: 1;
+  flex: 1;
+}
+.customer-meta {
+  display: flex;
+  justify-content: space-between;
+}
+.mb-2,
+.my-2 {
+  margin-bottom: 0.5rem !important;
+}
+.mt-2,
+.my-2 {
+  margin-top: 0.5rem !important;
+}
+.d-block {
+  display: block !important;
+}
+.ms-feed p {
+  font-size: 14px;
+}
+.ms-list-item p {
+  margin-bottom: 0;
+  font-size: 12px;
+}
+.d-block {
+  display: block !important;
+}
+.align-items-end {
+  -ms-flex-align: end !important;
+  align-items: flex-end !important;
+}
+
+.justify-content-between {
+  -ms-flex-pack: justify !important;
+  justify-content: space-between !important;
+}
+.d-flex {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+.ms-feed-controls {
+  display: flex;
+  margin-top: 1rem;
+}
+.new {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.ms-feed-user {
+  font-size: 16px;
+}
+.ms-recent-support-tickets h6 {
+  font-size: 14px;
+}
+.text-red {
+  color: #ff0018;
+}
+.ml-4,
+.mx-4 {
+  margin-left: 1.5rem !important;
+}
+.mb-0,
+.my-0 {
+  margin-bottom: 0 !important;
+}
+.common_style {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Roboto";
+  font-weight: 700;
+  color: rgb(117, 117, 117);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.slider {
+  margin: 0 20px;
+  overflow: "hidden";
+  padding: 2rem 0;
+}
+
+.slider img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+
+  border-radius: 10px;
+}
+
+.react-multi-carousel-list {
+  padding: 0rem 0 2rem 0;
+}
+
+.custom-dot-list-style button {
+  border: none;
+  background: rgb(172, 74, 121);
+}
+.react-multi-carousel-dot.react-multi-carousel-dot--active button {
+  background: rgb(172, 74, 121) !important;
+}
+.table-container {
+  max-height: 300px; /* Set a maximum height for the table container */
+  overflow-y: auto; /* Enable vertical scrollbar if the content overflows */
+}

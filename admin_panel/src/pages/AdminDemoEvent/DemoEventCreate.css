@@ -1,0 +1,124 @@
+/* Image uploader container */
+.image-uploader {
+  margin: 20px;
+  text-align: center;
+}
+
+/* Style the input for file selection */
+.image-uploader input[type="file"] {
+  display: none;
+}
+
+/* Image container styles */
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+/* Style individual image items */
+.image-item {
+  position: relative;
+}
+
+/* Style the image previews */
+.image-item img {
+  width: 100px;
+  height: 100px;
+}
+
+/* Style the delete buttons */
+.delete-button {
+  position: absolute;
+  top: 85px;
+  right: 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 54px;
+  height: 28px;
+  cursor: pointer;
+}
+.userFormBorder {
+  border: 3px solid green;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #fff;
+}
+
+.table-bg {
+  background-color: #fff;
+  width: 100%;
+}
+
+.table-bg tr th {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.select-checkbox-style {
+  margin-top: 12px;
+}
+
+.add-btn-style {
+  color: #ffffff;
+  border: 2px solid #188dc7;
+  padding: 2px 10px;
+  font-size: 13px;
+  background: #188dc7;
+  transition: 0.5s;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.add-item-style {
+  border: 2px solid #188dc7;
+  background-color: #fff;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+.submit-btn-style {
+  color: #ffffff;
+  border: 2px solid rgba(207, 96, 135, 1);
+  padding: 5px 25px;
+  font-size: 15px;
+  background: rgb(207, 96, 135);
+  background: linear-gradient(
+    90deg,
+    rgba(207, 96, 135, 1) 0%,
+    rgba(60, 6, 80, 1) 100%
+  );
+  transition: 0.5s;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.table-bg tr .th-style {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 5px;
+  color: black;
+}
+
+.Add-request-bg {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #fff;
+}
+
+.divider-style {
+  background-color: #c4c4c4;
+  height: 3px;
+}
+
+.add-invoice-style {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.add-icon-style {
+  font-size: 20px !important;
+}

@@ -1,0 +1,29 @@
+.pending_style {
+  border-radius: 10px;
+  border-bottom: 5px solid #702061;
+}
+.active_style {
+  border-radius: 10px;
+  border-bottom: 5px solid #1e90ff;
+}
+
+.cancelled_style {
+  border-radius: 10px;
+  border-bottom: 5px solid #f4a460;
+}
+.delivered_style {
+  border-radius: 10px;
+  border-bottom: 5px solid #008080;
+}
+.desc {
+  font-size: 16px;
+  font-weight: 700;
+}
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+  border: 0;
+  border-radius: 0.25em;
+  background: initial;
+  background-color: #572131 !important;
+  color: #fff;
+  font-size: 1em;
+}

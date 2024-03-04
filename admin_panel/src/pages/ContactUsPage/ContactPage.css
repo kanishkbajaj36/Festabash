@@ -1,0 +1,43 @@
+/* Image uploader container */
+.image-uploader {
+  margin: 20px;
+  text-align: center;
+}
+
+/* Style the input for file selection */
+.image-uploader input[type="file"] {
+  display: none;
+}
+
+/* Image container styles */
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+/* Style individual image items */
+.image-item {
+  position: relative;
+}
+
+/* Style the image previews */
+.image-item img {
+  width: 100px;
+height: 100px;
+}
+
+/* Style the delete buttons */
+.delete-button {
+  position: absolute;
+  top: 85px;
+  right: 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 54px;
+  height: 28px;
+  cursor: pointer;
+}

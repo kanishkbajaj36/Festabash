@@ -1,0 +1,134 @@
+.card {
+  margin-bottom: 1.875rem;
+  background-color: #fff;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  border: 0 solid transparent;
+  box-shadow: 0 5px 5px 0 rgba(82, 63, 105, 0.05);
+  height: calc(100% - 30px);
+}
+.card-body {
+  padding: 1.875rem rem;
+}
+.card-body {
+  padding: 1.875rem;
+}
+.card-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+  text-transform: capitalize;
+}
+.description {
+  font-size: 1rem;
+  color: #000;
+  font-weight: 600;
+}
+.description-bx .card-bx {
+  width: 416px;
+  min-width: 416px;
+}
+
+.card-bx {
+  position: relative;
+  z-index: 1;
+  border-radius: 1.75rem;
+  overflow: hidden;
+  padding: 30px 35px;
+  display: -webkit-flex;
+  display: flex;
+}
+.bg-dark-blue {
+  background: #251e71 !important;
+}
+.card-bx .pattern-img {
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+}
+.card-body {
+  padding: 1.875rem;
+}
+
+.card-bx .change-btn:after,
+.card-bx .pattern-img {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+img,
+svg {
+  vertical-align: middle;
+}
+.description-bx .card-bx .card-info {
+  padding-top: 10px;
+}
+
+.card-bx .card-info {
+  padding-top: 30px;
+  -webkit-flex: 1 1;
+  flex: 1 1;
+}
+.card-bx .card-info .h2,
+.card-bx .card-info h2 {
+  font-size: 36px;
+}
+.text-white {
+  color: #fff !important;
+}
+.transaction-details {
+  border-top: 1px solid #e4e4e4;
+}
+.transaction-details .amount-bx {
+  background: #fff6e0;
+  border-radius: 1rem;
+  width: 330px;
+  display: -webkit-flex;
+  display: flex;
+  padding: 20px;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.transaction-details .amount-bx .i {
+  height: 54px;
+  width: 54px;
+  font-size: 25px;
+  margin-right: 20px;
+  border-radius: 1rem;
+  line-height: 54px;
+  text-align: center;
+  background: #ff7426;
+  color: #fff;
+}
+.transaction-details .user-bx-2 {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.transaction-details .user-bx-2 img {
+  height: 85px;
+  width: 85px;
+  margin-right: 20px;
+}
+.rounded {
+  border-radius: 1.75rem !important;
+}
+.d-xl-flex {
+  display: -webkit-flex !important;
+  display: flex !important;
+}
+.fs-16 {
+  font-size: 16px !important;
+  line-height: 1.6;
+  color: white;
+}
+.common_style {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Roboto";
+  font-weight: 700;
+  color: rgb(117, 117, 117);
+}
