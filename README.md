@@ -1,9 +1,6 @@
 # Festabash
 
-```
-_Created with [AIPRM Prompt "Readme Generator | Markdown Format | GitHub."](https://www.aiprm.com/prompts/softwareengineering/text-editor/1794387468406222848/)_
-
-# Android Mobile App Repository
+## Android Mobile App Repository
 
 Welcome to our Android Mobile App repository. This repository contains all the necessary components to build, manage, and deploy our mobile application. Below you will find a detailed description of each directory and its contents.
 
@@ -40,7 +37,3 @@ Open the `android/` directory in Android Studio, sync the project with Gradle, a
 
 We welcome contributions to our project. If you are interested in contributing, please take a look at our contributing guidelines in the CONTRIBUTING.md file. Make sure to follow our code of conduct to ensure a welcoming and inclusive environment for all contributors.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details.
-```
